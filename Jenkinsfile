@@ -3,7 +3,7 @@ node {
          checkout scm
      }
      stage('Build') {
-         app = docker.build("rukeim/test-repo")  
+         app = docker.build("shout685/portfolio")  
 		   				   
      }
      stage('Push') {
